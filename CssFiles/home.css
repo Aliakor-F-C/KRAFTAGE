@@ -278,3 +278,10 @@ span {
     }
 
 }
+
+@media (max-width: 468px) {
+    .opt-box {
+        width: 100%;
+    }
+    }
+
