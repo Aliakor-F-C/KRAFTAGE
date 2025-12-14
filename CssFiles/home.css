@@ -224,19 +224,21 @@ span {
     }
     .container {
         display: block;
+          width: 80%;
+        margin-left: 36.911px;
 
     }
     #buy {
-        margin-left: 0;
+        margin-left: 20px;
         margin-right: 0;
     }
     #sell {
-        margin-left: 0;
+        margin-left: 20px;
         margin-right: 0;
         margin-top: 65px;
     }
     #invest {
-        margin-left: 0;
+        margin-left: 20px;
         margin-right: 0;
         margin-top: 65px;
     }
@@ -272,5 +274,6 @@ span {
     #copyright {
         font-size: 14px;
     }
+
 
 }
