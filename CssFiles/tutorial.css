@@ -1,0 +1,46 @@
+body {
+    background-color: #1E1E2F;
+    font-family: 'DM Sans', 'Playfair Display', 'Limelight';
+}
+
+
+#above-head {
+    color: #22D3EE;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #e0e0e0be;
+}
+
+.tutorial-notes {
+    font-size: 18px;
+    color: #E0E0E0;
+    line-height: 1.9em;
+}
+
+ #top-list {
+    color: #E0E0E0;
+    font-size: 17px;
+    list-style-image: url('../images/tutorial_images/listbulb.png');
+    padding-left: 60px;
+}
+#top-list li {
+    padding-bottom: 19px;
+}
+#top-list a:hover {
+    color: #22D3EE;
+}
+#top-list a:active {
+    color: #f3aaaa;
+}
+
+.tut-links {
+    color: #E0E0E0;
+    text-underline-offset: 4px;
+    text-decoration-style: dotted;
+}
+

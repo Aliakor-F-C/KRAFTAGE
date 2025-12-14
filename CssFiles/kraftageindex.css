@@ -1,0 +1,136 @@
+body {
+    background-color: #1E1E2F;
+    font-family: 'Poppins', 'Inter', sans-serif;
+}
+.h1-font {
+    color: #F3F4F6;
+    text-align: center ;
+    text-decoration: overline wavy  ;
+    padding-top: 45px;
+    
+}
+#login-note {
+    text-align: center;
+    color: #22D3EE;
+     font-weight: 700;
+    font-size: 19px;
+    
+}
+
+#container {
+    width: 40%;
+    margin: 0 auto;
+    
+}
+#logbox {
+    background-color:#1E1E2F;
+    border: 2px solid  #22D3EE ;
+    border-radius: 10px;
+    
+   
+}
+
+form {
+    color: #F3F4F6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+    text-align: center;
+    
+}
+
+.buttons {
+    width: 100px; height: 37px;
+    background-color: #22D3EE;
+    color: #1E1E2F;
+    border: 1px #22D3EE solid;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+}
+.buttons:hover, .btn:hover {
+  background-color: #F3F4F6;
+  
+}
+
+
+.btn {
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #22D3EE;
+    color: #1E1E2F;
+    border: 1px solid #22D3EE;
+    border-radius: 25px;
+    padding: 9px 20px;
+    height: 37px;
+    font-family: inherit;
+    font-size: 15px;
+    
+}
+#username {
+    height: 21px;
+    border: 1.97px solid #22D3EE ;
+    color: black;
+    border-radius: 7px;
+}
+#password {
+     height: 21px;
+    border: 1.97px solid #22D3EE ;
+    color: black;
+    border-radius: 7px;
+   }
+
+ 
+
+ #kraftage-alone {
+    color: #22D3EE;
+ }
+
+ .button-container {
+    text-align: center;
+ }
+ #forgot {
+    font-size: 14px;
+    color: #22D3EE;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+ }
+
+ p{
+    text-align: right;
+ }
+
+ #HomeStick {
+border-top: 1px solid #F3F4F6;
+border-right: 1px solid #F3F4F6;
+border-bottom: 1px solid #F3F4F6;
+width: 130px;
+padding: 10px;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+margin-left: 0;
+background-color: #8b2037;
+ }
+
+ #HomeLink {
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #F3F4F6;
+ }
+
+ #HomeStick:hover {
+    background-color: #22D3EE;
+ }
+
+ /* Media For MObile*/
+
+ @media (max-width: 468px){
+    .h1-font {
+        text-decoration: none;
+    }
+    #container {
+        width: 50%;
+    }
+ }

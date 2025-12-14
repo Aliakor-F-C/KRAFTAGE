@@ -1,0 +1,63 @@
+body {
+    background-color: #22D3EE;
+    font-family: 'Poppins', 'Inter', sans-serif;
+}
+.h1-font {
+    color: #1E1E2F;
+    text-align: center ;
+    text-decoration: overline wavy  ;
+    padding-top: 45px;
+}
+
+ #kraftage-alone {
+    color: #F3F4F6;
+ }
+
+ #signup-note {
+    text-align: center;
+    color: #1E1E2F;
+     font-weight: 700;
+    font-size: 23px;  
+}
+
+#signup-container {
+    width: 35%;
+    margin: 0 auto;
+    
+}
+
+#signbox {
+    background-color:#22D3EE;
+    border: 2px solid  #1E1E2F ;
+    border-radius: 10px;
+    text-align: center;
+ 
+}
+
+#signup-form {
+    color: #1E1E2F;
+  padding-top: 25px;
+  padding-bottom: 25px;
+ 
+}
+
+.signup-input {
+    height: 21px;
+    border: 1.97px solid #1E1E2F ;
+    color: black;
+    border-radius: 7px;    
+}
+
+.signup-buttons {
+    width: 100px; height: 37px;
+    background-color: #1E1E2F;
+    color: #F3F4F6;
+    border: 1px ;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+

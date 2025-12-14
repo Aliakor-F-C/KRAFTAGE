@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kraftage - Signup</title>
+    <link rel="stylesheet" type="text/css" href="CssFiles/signup.css">
+</head>
+
+<body>
+    <h1 class="h1-font">Become A <span id="kraftage-alone">Kraftant</span> Today!</h1> <br> <br> <br>
+    <p id="signup-note">Create An Account</p>
+    <div id="signup-container">
+        <div id="signbox">
+            <form id="signup-form" action="submit.php" method="post">
+
+                <label for="fullname">Fullname</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="fullname" name="fullname" placeholder="Enter Fullname" required
+                    class="signup-input"> <br> <br> <br>
+
+
+                <label for="email">Email Address</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="signup-input" type="email" id="email" name="email" placeholder="Enter Email" required>
+                <br> <br> <br>
+
+                <label for="password">Create Kraft-pin</label>&nbsp;&nbsp;
+                <input class="signup-input" type="password" id="password" name="password" placeholder="Enter Kraft-pin"
+                    minlength="8" required> <br> <br> <br>
+
+                <label for="confirmpassword"> Confirm Kraft-pin</label>
+                <input class="signup-input" type="password" id="confirmpassword" name="confirmpassword"
+                    placeholder="Confirm Kraft-pin" minlength="8" required> <br> <br> <br>
+
+                <button type="submit" class="signup-buttons">Sign Up</button>
+
+
+
+
+            </form>
+
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
