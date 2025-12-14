@@ -1,0 +1,279 @@
+body {
+    background-color: #1E1E2F;
+} /* No font on body yet*/
+
+
+/* Fixed Header below*/
+header {
+    position: relative;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background-color: #1E1E2F;
+    height: 88px;
+}
+
+#main-menu {
+    background-color: #1E1E2F;
+    margin-right: 5px;
+    position: absolute;
+    right: 20px;
+    top: 4px;
+}
+
+#menu-items {
+ list-style: none;
+ padding-right: 44px;
+ padding-top: 20px;
+}
+
+#menu-items li {
+    display: inline;
+}
+
+#menu-items li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    padding-right: 18px;
+    font-size: 18px;
+}
+
+#menu-items li a:hover {
+    font-size: 21px;
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
+    color: #f3aaaa;
+}
+
+main {
+    margin-top: 140px;
+}
+h1 {
+   font-family: 'Bungee Shade', 'Orbitron', serif ;
+   color: #22D3EE;
+}
+hr {
+    border-color: #22D3EE;
+}
+.hero {
+    font-family: 'Orbitron', serif, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #e0e0e0;
+}
+#subhero {
+    font-size: 23px;
+    color: #38BDF8;
+    text-decoration: underline double;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1.4px;
+}
+.container {
+    display: flex;
+    margin: 0px auto;
+    width: 80%;    
+}
+.opt-box {
+     width: 240px;
+     height: 220px;
+     background-color: #1E1E2F;
+     border: 2px solid white ;
+     border-radius: 10px;
+}
+
+.opt-box a:active{
+    color: #e0e0e0;
+}
+#buy{
+   
+    margin-right: 50px;
+   
+}
+#sell {
+    margin-right: 50px;
+    margin-left: 100px;
+}
+#invest {
+    margin-left: 100px;
+}
+div p {
+    text-align: center;
+}
+span {
+    text-decoration: none;
+}
+.text-link {
+    text-decoration: none;
+    color: #f3aaaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.homelist {
+    text-align: center;
+    color: #38BDF8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.homedesc {
+    text-align: center;
+    color: #e0e0e0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#numbers {
+    display: flex;
+    text-align: center;
+   padding-left: 200px;
+    
+}
+
+.each-num {
+    width: 22%;
+    font-size: 20px;
+    border: 4px ridge #e0e0e0;
+    height: 90px;
+    padding-top: 13px;
+    margin: 26px;
+    border-radius: 35%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f3aaaa;
+    background-color: #323250;
+}
+
+
+    .clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.endlist {
+    text-align: left;
+    font-size: 17px;
+    color: #e0e0e0;
+    font-weight: bolder;
+}
+.resource {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 14px;
+}
+.foot-list {
+    float: left;
+    width: 25%;
+}
+.foot-list a:hover {
+    color: #8adbfd;
+}
+.shift{
+    padding-left: 37px;
+}
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    padding-bottom: 8px;
+}
+#copyright {
+    text-align: center;
+    font-size: 17px;
+    color: #e0e0e0;
+    margin-top: 190px;
+}
+
+/* Media Queries; MOBILE*/
+
+@media (max-width: 767px) {
+    #main-menu {
+        margin-top:58px;
+        margin-right: 0;
+        position: absolute;
+        right: 0;
+     }
+      #menu-items {
+            padding-left: 7px;
+            padding-right: 0;
+        }
+        #menu-items > li  > a {
+            font-size: 15px;
+            line-height: 23px;
+        }
+    #menu-items > li  > a:hover {
+            font-size: 17px;
+    }
+     hr {
+        display: none;
+       }
+
+    main {
+        margin-top: 200px;
+    }
+    .hero {
+        font-size: 29.67px;
+    }
+    #subhero {
+        font-size: 18.3px;
+    }
+    .container {
+        display: block;
+        width: 80%;
+        margin-left: 36.911px;
+    }
+
+
+    #buy {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    #sell {
+        margin-left: 20px;
+        margin-right: 0;
+        margin-top: 65px;
+    }
+    #invest {
+        margin-left: 20px;
+        margin-right: 0;
+        margin-top: 65px;
+    }
+
+    .homelist {
+        font-size: 19px;
+    }
+    .homedesc {
+        font-size: 15px;
+    }
+
+    #numbers {
+        padding-left: 0;
+    }
+    .each-num {
+        font-size: 14px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 20px;
+    }
+
+    .foot-list {
+        width: 50%;
+    }
+    .endlist {
+        font-size: 14px;
+    }
+
+    .resource {
+        font-size: 12px;
+    }
+
+    #copyright {
+        font-size: 14px;
+    }
+
+}
