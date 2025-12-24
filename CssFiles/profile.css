@@ -148,7 +148,7 @@ h2 {
 
 /* Media Queries; MOBILE*/
 
-@media (max-width: 600px) {
+@media (max-width: 501px) {
     #main-menu {
         margin-top:58px;
         margin-right: 0;
@@ -199,20 +199,20 @@ h2 {
 
     .btn-prof {
         position: static;
-        width: 70%;
+        width: 100%;
         margin-top: 520px;
         margin-left: 16%;
         margin-right: 16%;
       display: flex;
-      gap: 30px;
+      gap: 28px;
 
     
     }
     .btn-chg {
-       margin-left: 10%;
+       margin-left: 4%;
     }
 
     .btn-log {
-        margin-left: 10%;
+        margin-left: 4%;
     }
 }
