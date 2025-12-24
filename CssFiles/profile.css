@@ -199,15 +199,20 @@ h2 {
 
     .btn-prof {
         position: static;
-        width: 80%;
+        width: 70%;
         margin-top: 520px;
         margin-left: 16%;
+        margin-right: 16%;
       display: flex;
-      gap: 20px;
+      gap: 30px;
 
     
     }
     .btn-chg {
-       margin-left: 0;
+       margin-left: 10%;
+    }
+
+    .btn-log {
+        margin-left: 10%;
     }
 }
